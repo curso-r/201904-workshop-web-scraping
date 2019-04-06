@@ -1,0 +1,13 @@
+---
+title: Miscelânea
+---
+
+# Resumo
+
+* Paralelização e Distribuição
+* Captchas
+
+# Referências
+
+* [`pvec`](https://github.com/abjur/abjutils)
+* [`decryptr`](https://decryptr.netlify.com)

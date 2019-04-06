@@ -1,0 +1,54 @@
+baseurl = "/"
+languageCode = "pt-br"
+title = "Programação em R"
+theme = "template-curso"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Intro"
+    url = "/intro/"
+    weight = 1.5
+[[menu.main]]
+    name = "Identificar"
+    url = "/identificar/"
+    weight = 2
+[[menu.main]]
+    name = "Navegar"
+    url = "/navegar/"
+    weight = 3
+[[menu.main]]
+    name = "Replicar"
+    url = "/replicar/"
+    weight = 4
+[[menu.main]]
+    name = "Parsear"
+    url = "/parsear/"
+    weight = 5
+[[menu.main]]
+    name = "Iterar"
+    url = "/iterar/"
+    weight = 6
+[[menu.main]]
+    name = "Validar"
+    url = "/validar/"
+    weight = 7
+[[menu.main]]
+    name = "Miscelânea"
+    url = "/miscelanea/"
+    weight = 8
+
+[params]
+    description = "A website built through Hugo and blogdown."
+    footer = "&copy; [Curso-R](http://curso-r.com) 2018 | [Github](https://github.com/curso-r)"
