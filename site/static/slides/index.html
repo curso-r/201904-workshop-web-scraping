@@ -111,15 +111,16 @@ Se der tempo, veremos:
 
 ```r
 # necessário
-library(httr)
-library(xml2)
-library(rvest)
+library(httr)       # navegar
+library(xml2)       # parsear
+library(rvest)      # navegar e parsear
 
 # útil
-library(janitor)
-library(abjutils)
-library(tidyverse)
-library(scrapr) # jtrecenti/scrapr
+library(janitor)    # arrumar dados zuados
+library(abjutils)   # replicar e iterar
+library(tidyverse)  # everything
+library(scrapr)     # replicar e identificar
+# devtools::install_github("jtrecenti/scrapr")
 ```
 
 
@@ -1113,11 +1114,11 @@ abjutils::pvec(lista, log, .cores = 2)
 
 ---
 
-# Exercício 5
+# Exercício 4
 
 Baixe as páginas de todos os países
 
-# Exercício 6
+# Exercício 5
 
 Crie uma conta manualmente e depois construa uma função para se logar.
 
@@ -1220,11 +1221,11 @@ httr::GET(
 
 ```
 #&gt; Response [https://app.nubank.com.br/]
-#&gt;   Date: 2019-04-05 13:46
+#&gt;   Date: 2019-03-12 13:44
 #&gt;   Status: 200
 #&gt;   Content-Type: text/html
 #&gt;   Size: 4.36 kB
-#&gt; &lt;ON DISK&gt;  /home/jtrecenti/Documents/201904-workshop-web-scraping/site/static/slides/static/nubank.html
+#&gt; &lt;ON DISK&gt;  static/nubank.html
 ```
 
 ---
@@ -1348,7 +1349,7 @@ pag_signup %&gt;%
 ```
 
 ```
-#&gt; [1] "language | --\n"
+#&gt; [1] ". example\n"
 ```
 
 Muitas vezes pode ser necessário tratar ainda mais a imagem antes de passar o OCR.

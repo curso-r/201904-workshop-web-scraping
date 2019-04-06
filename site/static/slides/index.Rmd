@@ -973,11 +973,11 @@ abjutils::pvec(lista, log, .cores = 2)
 
 ---
 
-# Exercício 5
+# Exercício 4
 
 Baixe as páginas de todos os países
 
-# Exercício 6
+# Exercício 5
 
 Crie uma conta manualmente e depois construa uma função para se logar.
 
